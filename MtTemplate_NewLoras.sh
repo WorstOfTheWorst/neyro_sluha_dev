@@ -51,13 +51,13 @@ DETECTION_MODELS=(
 "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx"
 )
 
-LORAS=(
-"https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/WanFun.reworked.safetensors"
-"https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/light.safetensors"
-"https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/light.safetensors"
-"https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/WanPusa.safetensors"
-"https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/wan.reworked.safetensors"
+### "https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/WanFun.reworked.safetensors"
+### "https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/WanPusa.safetensors"
+### "https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/wan.reworked.safetensors"
+###
 
+LORAS=(
+"https://huggingface.co/wdsfdsdf/OFMHUB/resolve/main/light.safetensors"
 "https://huggingface.co/ffxvs/lora-effects/resolve/main/detail_tweaker.safetensors"
 "https://huggingface.co/Instara/instagirl-wan-2.2/resolve/main/Instagirlv2.5-HIGH.safetensors"
 "https://huggingface.co/Instara/instagirl-wan-2.2/resolve/main/Instagirlv2.5-LOW.safetensors"
