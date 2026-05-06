@@ -1,0 +1,12 @@
+[Unit]
+Description=Comfy UI service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/dmitriy/.openclaw/workspace/SMMProject
+ExecStart=/usr/bin/python3 -m comfy_ui.api
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
